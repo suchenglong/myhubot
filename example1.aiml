@@ -1,0 +1,68 @@
+<category>
+    <pattern>Which city is the capital of the United States?</pattern>
+    <template>Washington.</template>
+</category>
+<category>
+    <pattern>你 好</pattern>
+    <template>你好！</template>
+</category>
+<category>
+    <pattern>SEE YOU</pattern>
+    <template>SEE YOU</template>
+</category>
+<category>
+    <pattern>今 天 天 气 真 好</pattern>
+    <template>
+        <random>
+            <li>是呀，天气不错。</li>
+            <li>要不出去走走？</li>
+            <li>希望每天天气都这么好!</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>你 好 ， 我 是 *</pattern>
+    <template>你好，很高兴认识 <star index="1"/>。 </template>
+</category>
+<category>
+    <pattern>您 好 ， 我 是 *</pattern>
+    <template>
+        <srai>你 好 ， 我 是 <star index="1"/>。 </srai>
+    </template>
+</category>
+<category>
+    <pattern that="你 好">你 好 啊</pattern>
+    <template>
+        <random>
+            <li>你好，我们刚刚说过一遍了。</li>
+            <li>你好，客气啥！</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>ni hao </pattern>
+    <template>ni hao !</template>
+</category>
+<category>
+  <pattern>zhe you shi yi ge</pattern>
+  <template>zhe ge hao</template>
+</category>
+<category>
+  <pattern>zhe you shi tian ge</pattern>
+  <template>zhe ge hao er</template>
+</category>
+<category>
+  <pattern>天使的翅膀</pattern>
+  <template>这个很好吃</template>
+</category>
+<category>
+  <pattern>how are you</pattern>
+  <template>I 'm fine</template>
+</category>
+<category>
+  <pattern>ioddd</pattern>
+  <template>llll</template>
+</category><category>
+  <pattern>wo yao ceshi</pattern>
+  <template>zhe zhong ni dou ceshichulai le a </template>
+</category>
